@@ -1,0 +1,24 @@
+# ref. https://github.com/matplotlib/matplotlib/blob/master/matplotlibrc.template
+
+axes.facecolor: white
+axes.edgecolor: white
+axes.linewidth: 1
+axes.grid: True
+axes.labelcolor: 7f7f7f
+axes.axisbelow: True
+
+# Tableau's Color Blind 10 from http://tableaufriction.blogspot.jp/2012/11/finally-you-can-use-tableau-data-colors.html
+axes.prop_cycle: cycler('color', ['006ba4', 'c85200', 'ff800e', '898989', 'ababab', 'a2c8ec', '595959', 'ffbc79', '5f9ed1', 'cfcfcf'])
+
+xtick.color: 7f7f7f
+xtick.direction: out
+
+ytick.color: 7f7f7f
+ytick.direction: out
+
+grid.color: 7f7f7f
+grid.linestyle: --
+grid.alpha: 0.3
+
+figure.facecolor: white
+figure.edgecolor: 0.50
